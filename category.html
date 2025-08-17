@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>gnesaves — تصفح</title>
+  <link rel="stylesheet" href="assets/styles.css"/>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container row">
+      <a class="brand" href="index.html">NEBULA<span>™</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="category.html?c=gadgets" class="active">أدوات</a>
+        <a href="category.html?c=home">المنزل</a>
+        <a href="category.html?c=accessories">اكسسوارات</a>
+      </nav>
+      <button class="hamburger" id="hamburger">☰</button>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <h1 class="title" id="cat-title">المنتجات</h1>
+        <div class="filters">
+          <select id="sort" class="select">
+            <option value="pop">الأكثر شعبية</option>
+            <option value="new">الأحدث</option>
+            <option value="price-asc">السعر: الأرخص</option>
+            <option value="price-desc">السعر: الأغلى</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid prods" id="cat-grid"></div>
+    </div>
+  </main>
+
+  <footer class="footer mini">
+    <div class="container copy">© <span id="year"></span> NEBULA™</div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
