@@ -1,0 +1,43 @@
+[
+  {
+    "id": "demo-stand",
+    "title": "ستاند هاتف معدني قابل للطي",
+    "image": "https://placehold.co/800x800/10243f/9ad9ff?text=Phone+Stand",
+    "price": 59.00,
+    "category": "gadgets",
+    "pop": 95,
+    "added": 20250101,
+    "featured": true,
+    "badge": "شحن سريع",
+    "desc": "ستاند معدني ثابت وزوايا متعددة للمكتب والدراسة.",
+    "link": "#",
+    "linkLabel": "رابط الشراء (مؤقت)"
+  },
+  {
+    "id": "led-cube",
+    "title": "مكعب إضاءة ذكي",
+    "image": "https://placehold.co/800x800/0e223d/b8f5ff?text=LED+Cube",
+    "price": 129.00,
+    "category": "home",
+    "pop": 88,
+    "added": 20250112,
+    "featured": true,
+    "badge": "RGB",
+    "desc": "إضاءة محيطية بتطبيق تحكم ومشاهد ديناميكية.",
+    "link": "#",
+    "linkLabel": "شراء الآن"
+  },
+  {
+    "id": "ring-holder",
+    "title": "حافظة مفاتيح مغناطيسية",
+    "image": "https://placehold.co/800x800/0f233b/9ecbff?text=Magnet",
+    "price": 39.00,
+    "category": "accessories",
+    "pop": 80,
+    "added": 20250105,
+    "badge": "عملي",
+    "desc": "تنظيم أنيق للمفاتيح مع مغناطيس قوي.",
+    "link": "#",
+    "linkLabel": "شراء الآن"
+  }
+]
