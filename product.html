@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>gnesaves — منتج</title>
+  <link rel="stylesheet" href="assets/styles.css"/>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container row">
+      <a class="brand" href="index.html">NEBULA<span>™</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="category.html?c=gadgets">أدوات</a>
+        <a href="category.html?c=home">المنزل</a>
+        <a href="category.html?c=accessories">اكسسوارات</a>
+      </nav>
+      <button class="hamburger" id="hamburger">☰</button>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container product">
+      <div class="p-media"><img id="p-img" alt=""></div>
+      <div class="p-info">
+        <h1 id="p-title" class="title"></h1>
+        <div class="p-meta">
+          <span id="p-price" class="price"></span>
+          <span id="p-badge" class="badge"></span>
+        </div>
+        <p id="p-desc" class="muted"></p>
+        <div class="cta">
+          <a id="p-link" class="btn btn-primary" target="_blank" rel="nofollow noopener">اشتري الآن</a>
+          <a class="btn btn-ghost" href="javascript:history.back()">رجوع</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer mini">
+    <div class="container copy">© <span id="year"></span> NEBULA™</div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
