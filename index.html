@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>gnesaves — متجر</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css"/>
+  <meta name="theme-color" content="#0b0f1a">
+</head>
+<body>
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="container row">
+      <a class="brand" href="index.html">NEBULA<span>™</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="active">الرئيسية</a>
+        <a href="category.html?c=gadgets">أدوات</a>
+        <a href="category.html?c=home">المنزل</a>
+        <a href="category.html?c=accessories">اكسسوارات</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="قائمة">☰</button>
+    </div>
+  </header>
+
+  <!-- Side rail (desktop) -->
+  <aside class="rail">
+    <a href="index.html" title="الرئيسية" class="rail-btn active">🏠</a>
+    <a href="category.html?c=gadgets" title="أدوات" class="rail-btn">⚙️</a>
+    <a href="category.html?c=home" title="المنزل" class="rail-btn">🏠</a>
+    <a href="category.html?c=accessories" title="اكسسوارات" class="rail-btn">✨</a>
+  </aside>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-in">
+        <div class="hero-copy">
+          <h1>تجربة شراء <span class="glow">أسطورية</span>… تصميم يفوق الخيال.</h1>
+          <p class="muted">واجهة متجر فخمة متجاوبة. سنضيف منتجاتك لاحقًا بدون تغيير البنية.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="category.html?c=gadgets">ابدأ التسوق</a>
+            <a class="btn btn-ghost" href="#recs">الاكتشافات</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+          <div class="card promo">
+            <div class="promo-badge">مميز</div>
+            <img src="https://placehold.co/640x640/0f1a2d/9ad9ff?text=Featured" alt="منتج مميز">
+            <div class="promo-info">
+              <h3>منتج لافت</h3>
+              <p class="muted">لمسة مستقبلية…</p>
+              <a class="link" href="category.html?c=all">شاهد المزيد →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="title">الأقسام</h2>
+          <a class="link" href="category.html?c=all">عرض الكل</a>
+        </div>
+        <div class="grid cats" id="cats-grid"></div>
+      </div>
+    </section>
+
+    <!-- Recommendations / carousel -->
+    <section id="recs" class="section">
+      <div class="container">
+        <h2 class="title">مختارات اليوم</h2>
+        <div class="carousel" id="featured-row" data-limit="10">
+          <!-- JS -->
+        </div>
+        <div class="dots" id="dots"></div>
+      </div>
+    </section>
+
+    <!-- Trust -->
+    <section class="trust">
+      <div class="container trust-in">
+        <div class="trust-item">🔒 دفع آمن</div>
+        <div class="trust-item">⚡ شحن سريع</div>
+        <div class="trust-item">↩️ إرجاع سهل</div>
+        <div class="trust-item">⭐ تقييمات حقيقية</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot-grid">
+      <div>
+        <div class="brand">NEBULA<span>™</span></div>
+        <p class="muted">واجهة فاخرة قابلة للتوسّع. المنتجات تُدار من JSON فقط.</p>
+      </div>
+      <div>
+        <h4>روابط</h4>
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="category.html?c=gadgets">أدوات</a></li>
+          <li><a href="category.html?c=home">المنزل</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>تواصل</h4>
+        <ul>
+          <li><a class="disabled" href="#">واتساب (لاحقًا)</a></li>
+          <li><a class="disabled" href="#">إنستغرام (لاحقًا)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container copy">© <span id="year"></span> NEBULA™</div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
